@@ -1,5 +1,5 @@
-const characters = require('./characters.json')
 const axios = require('axios')
+const characters = require('./characters.json')
 
 module.exports = {
   list: async () => {

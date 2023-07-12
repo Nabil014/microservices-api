@@ -1,6 +1,6 @@
-const Films = require('../data')
+const Film = require('../data')
 
 module.exports = async (req, res) => {
-  const films = await Films.list()
+  const films = await Film.list()
   res.status(200).send(films)
 }
